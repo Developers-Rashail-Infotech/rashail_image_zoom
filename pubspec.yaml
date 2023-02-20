@@ -22,6 +22,20 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      # android:
+        # package: com.example.rashail_multi_dropdown
+        # pluginClass: RashailMultiDropdown
+      ios:
+        pluginClass: RashailImageZoom
+      web:
+        # pluginClass: RashailImageZoom
+        # fileName: 
+      windows:
+        default_package: rashail_image_zoom
+      macos:
+        default_package: rashail_image_zoom
 
   # To add assets to your package, add an assets section, like this:
   # assets:
